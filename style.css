@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: white;
+ --bg-url:url(./assets/bg-mobile.jpg); 
+ --stroke-color:rgba(255, 255, 255, 0.5);
+ --surface-color:rgba(255,255,255,0.05);
+ --surface-color-hover:rgba(0,0,0,0.02);
+--hightligh-color:rgba(255, 255, 255,0.2);
+--switch-background:url(./assets/mon-stars.svg);
+}
+.light {
+  --text-color:black;
+ --bg-url: url(./assets/bg-mobile-light.jpg);
+ --stroke-color:rgba(0 , 0, 0, 0.5);
+ --surface-color:rgba(0 , 0, 0, 0.05);
+  --surface-color-hover:rgba(0,0,0,0.02);
+  --hightligh-color:rgba(0, 0, 0, 0.1);
+  --switch-background:url(./assets/sun-btn.svg);
+}
+
+body {
+  background:var(--bg-url) no-repeat top center/cover;
+}
+body * {
+  color: var(--text-color);
+  font-family:  "Inter", sans-serif;
+}
+#container {
+
+  width: 360px;
+  margin:56px auto 0;
+  
+}
+#profile {
+  text-align: center;
+  margin-top: 56px;
+}
+#profile img {
+  width: 112px;
+}
+#profile  p {
+  margin-top: 8px;
+  font-weight: 500;
+  line-height: 24px;
+}
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 24px auto;
+}
+#switch button{
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: white var(--switch-background) no-repeat center;
+  border-radius: 50%;
+
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.light #switch button {
+  left: 0;
+  right: initial;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background-color: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+}
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  border: 1px solid  var(--stroke-color);
+  background-color:  var(--surface-color);
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  font-family:"Inter", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+
+ul li a:hover {
+  border: 1px solid var(--text-color);
+  background-color:  var(--surface-color-hover);
+}
+
+#icones {
+ 
+  padding: 24px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#icones a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+#icones a:hover {
+  background-color: var(--hightligh-color);
+}
+
+footer {
+  padding: 24px 0 ;
+  font-size: 14px;
+  text-align: center;
+}
