@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Projeto desenvolvido para aprendizagem de novas tecnologias e ferramentas, feliz por esta me empenhando e aprendendo cada vez mais!
-[Acesse aqui]([https://www.figma.com/design/BfClE4IFJo36VXiOslgTTQ/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?node-id=10-620&t=7UrpcoquW2Po9Hjg-0](https://martinsalan2003.github.io/direction-portfolio/))
+[Acesse aqui](https://www.figma.com/design/BfClE4IFJo36VXiOslgTTQ/DevLinks-%E2%80%A2-Projeto-Discover-(Community)?node-id=10-620&t=7UrpcoquW2Po9Hjg-0](https://martinsalan2003.github.io/direction-portfolio/)).
 
 ## 🔖 Layout
 
